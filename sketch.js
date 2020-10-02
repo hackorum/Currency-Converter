@@ -11,7 +11,8 @@ function setup() {
    input = createInput();
 
    sel1 = createSelect();
-
+   
+   sel1.option('EUR');
    sel1.option('CAD');
    sel1.option('HKD');
    sel1.option('ISK');
@@ -50,6 +51,7 @@ function setup() {
    sel2 = createSelect();
 
    sel2.option('CAD');
+   sel2.option('EUR');
    sel2.option('HKD');
    sel2.option('ISK');
    sel2.option('PHP');
